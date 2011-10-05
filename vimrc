@@ -64,4 +64,4 @@ set laststatus=2  " Always show status line.
 " 
 " Put personal preferences here
 "
-colorscheme evening
+colorscheme railscasts

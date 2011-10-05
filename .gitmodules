@@ -25,3 +25,12 @@
 [submodule "bundle/gist-vim"]
 	path = bundle/gist-vim
 	url = git://github.com/mattn/gist-vim.git
+[submodule "bundle/railscasts"]
+	path = bundle/railscasts
+	url = https://github.com/jpo/vim-railscasts-theme.git
+[submodule "bundle/vividchalk"]
+	path = bundle/vividchalk
+	url = https://github.com/tpope/vim-vividchalk.git
+[submodule "bundle/github-theme"]
+	path = bundle/github-theme
+	url = https://github.com/dce/github_vim_theme.git
