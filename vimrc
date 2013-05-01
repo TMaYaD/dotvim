@@ -78,3 +78,5 @@ autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 " Put personal preferences here
 "
 colorscheme railscasts
+python from powerline.bindings.vim import source_plugin; source_plugin()
+
