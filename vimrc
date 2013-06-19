@@ -1,11 +1,4 @@
-" load pathogen
-" It is essential that these lines are called before enabling filetype
-" detection, so I would recommend putting them at the top of your vimrc file.
-call pathogen#infect()
-"call pathogen#helptags()
-
-filetype on  " Automatically detect file types.
-set nocompatible  " We don't want vi compatibility.
+source bundles.vim
 
 " Add recently accessed projects menu (project plugin)
 set viminfo^=!
