@@ -1,4 +1,4 @@
-source ~/.vim/bundles.vimrc
+source ~/.vim/bundles.vim
 
 " Add recently accessed projects menu (project plugin)
 set viminfo^=!
