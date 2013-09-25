@@ -66,6 +66,6 @@ autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 "
 colorscheme railscasts
 
-set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim
+" set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim
 " python from powerline.bindings.vim import source_plugin; source_plugin()
-
+let g:airline_powerline_fonts = 1
