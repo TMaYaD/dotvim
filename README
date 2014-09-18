@@ -1,15 +1,6 @@
-# Installation:
+Install
+-------
 
-    git clone git://github.com/TMaYaD/dotvim.git ~/.vim
+Read, then run the script:
 
-# Create symlinks:
-
-    ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
-
-# install bundles:
-
-    pushd ~/.vim
-    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-    vim -u bundles.vim +BundleInstall +qall
-    popd
+  bash <(curl -s https://raw.githubusercontent.com/tmayad/dotvim/master/install.sh) 2>&1 | tee ~/dotvim.log
